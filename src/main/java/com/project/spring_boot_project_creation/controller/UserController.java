@@ -22,4 +22,17 @@ public class UserController {
         return ResponseEntity.ok(users);
     }
 
+    @GetMapping("/v1/all")
+    public ResponseEntity<List<String>> getAllUsersFromController1() {
+        List<String> users = userService.getAllUsersFromService1();
+        return ResponseEntity.ok(users);
+    }
+
+    @GetMapping("/v2/all")
+    public ResponseEntity<List<String>> getAllUsersFromController2(){
+        List<String> users = userService.getAllUsersFromService2();
+        return ResponseEntity.ok(users);
+    }
+
+
 }
