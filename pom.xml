@@ -12,7 +12,7 @@
 	<artifactId>spring-boot-project-creation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-project-creation</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot App</description>
 	<url/>
 	<licenses>
 		<license/>
